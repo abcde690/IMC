@@ -1,0 +1,30 @@
+body {
+    background-color:darkslategray;
+    font-family:arial;
+    height: 100vh;
+}
+.container {
+  max-width: 90%;        
+  margin: 20px auto;     /* centraliza horizontalmente e dá margem em cima e baixo */
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-size: 1.1rem;     /* texto um pouco maior */
+  display:flex;
+  align-items:center;
+  align-content:center;
+  flex-direction:column;
+  
+}
+.meio {
+    border: 2px solid #000;       /* borda preta */
+  padding: 20px;                /* espaço interno */
+  border-radius: 8px;           /* cantos arredondados */
+  background-color: #f9f9f9;   /* cor de fundo clara */
+  max-width: 1000px;             /* largura máxima */
+  margin: 20px auto;            /* centraliza e dá margem em cima e baixo */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* sombra suave */
+  width:500px;
+}
