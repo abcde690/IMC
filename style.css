@@ -1,6 +1,5 @@
 body {
-    background-color:darkslategray;
-    font-family:arial;
+    background-color:rgb(77, 77, 243);
     height: 100vh;
 }
 .container {
@@ -19,12 +18,26 @@ body {
   
 }
 .meio {
-    border: 2px solid #000;       /* borda preta */
-  padding: 20px;                /* espaço interno */
-  border-radius: 8px;           /* cantos arredondados */
-  background-color: #f9f9f9;   /* cor de fundo clara */
-  max-width: 1000px;             /* largura máxima */
-  margin: 20px auto;            /* centraliza e dá margem em cima e baixo */
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* sombra suave */
-  width:500px;
+   border: 2px solid #000;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  width: 90%;
+  max-width: 1400px;
+  min-height:66vh;
+  margin: 40px auto;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.15);
 }
+ .imagem-container {
+  text-align: center;
+  margin: -400px 20px;
+}
+
+.img-centro {
+  width: 400px; /* ou o tamanho que preferir */
+  height: auto;
+  display: inline-block; /* para respeitar o text-align da div */
+  border-radius: 8px;    /* opcional, para cantos arredondados */
+}
+
+
