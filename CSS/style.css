@@ -39,5 +39,13 @@ body {
   display: inline-block; /* para respeitar o text-align da div */
   border-radius: 8px;    /* opcional, para cantos arredondados */
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  .meio {
+    padding: 20px;
+  }
+}
 
 
